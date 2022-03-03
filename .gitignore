@@ -4,3 +4,4 @@
 **/terraform.tfstate*
 **/sshkeys/*
 **/kubeconfig
+**/.terraform.tfstate.lock.info
