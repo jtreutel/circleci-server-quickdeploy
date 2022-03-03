@@ -1,2 +1,6 @@
-../.terraform/*
-../terraform.tfstate*
+**/.terraform/*
+**/terraform.tfvars
+**/.terraform.lock.hcl
+**/terraform.tfstate*
+**/sshkeys/*
+**/kubeconfig

@@ -1,0 +1,30 @@
+
+
+#----------------
+# General
+#----------------
+resource_prefix = "ccisrv"
+region      = "ap-northeast-1"
+
+# Tags info
+team        = "devops"
+owner       = "johndoe"
+source_repo = "github.com/yourusername/yourrepo"
+
+profile = "default"
+
+#----------------
+# VPC & Networking
+#----------------
+
+ssh_whitelist          = ["your.ip.goes.here/32"]
+r53_hosted_zone_domain = "example.com"
+server_subdomain       = "circleci"
+
+vms_public             = false
+nomadc_desired_capacity = 1
+nomad_autoscaler_enabled = true
+
+use_iam_role_for_nomad_autoscaler = false
+use_iam_role_for_s3_access        = false
+use_iam_role_for_vm_service       = false
